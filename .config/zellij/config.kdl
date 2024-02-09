@@ -3,6 +3,7 @@ keybinds {
     normal {
         // uncomment this and adjust key if using copy_on_select=false
         // bind "Alt c" { Copy; }
+        bind "Ctrl w" { ToggleFloatingPanes; SwitchToMode "Normal"; }
     }
     locked {
         bind "Ctrl g" { SwitchToMode "Normal"; }
@@ -338,7 +339,7 @@ mouse_mode true
 
 // The folder in which Zellij will look for layouts
 //
-// layout_dir "/path/to/my/layout_dir"
+// layout_dir "/home/namhyuck/.dotfiles/.config/zellij/layouts"
 
 // The folder in which Zellij will look for themes
 //
