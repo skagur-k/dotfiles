@@ -22,7 +22,7 @@ Change default shell to `zsh`
 - Install other packages
 
 ```
-  helix-editor, kubectl, kubectx, k9s, github cli, gcloud, etc
+  helix-editor, kubectl, kubectx, k9s, github cli, gcloud, wslu, zellij etc
 ```
 
 Configure ssh
@@ -41,3 +41,6 @@ Move to the `.dotfiles` directory.
   stow .
 ```
 
+# Integrate Docker with WSL1
+
+[Stack Overflow](https://stackoverflow.com/questions/66466339/docker-for-windows-and-wsl1-to-work-together)
