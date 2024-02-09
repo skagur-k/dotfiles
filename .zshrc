@@ -45,3 +45,4 @@ else
 fi
 
 
+[[ $commands[kubectl] ]] && source <(kubectl completion zsh)

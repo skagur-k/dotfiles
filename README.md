@@ -25,6 +25,10 @@ Change default shell to `zsh`
   helix-editor, kubectl, kubectx, k9s, github cli, gcloud, etc
 ```
 
+Configure ssh
+
+[Github SSH Configuration](https://shinjam.tistory.com/entry/GitGithub-SSH-%EC%84%A4%EC%A0%95)
+
 ## Import dotfiles
 
 ```
