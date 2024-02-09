@@ -10,3 +10,4 @@ alias kc="kubectl"
 alias kx="kubectx"
 
 alias gc="gcloud"
+alias zj="zellij"
