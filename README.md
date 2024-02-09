@@ -1,4 +1,6 @@
-# Namhyuck DOTFILES
+# DOTFILES
+
+Last updated: 2024/02/09
 
 ## Requirements
 
