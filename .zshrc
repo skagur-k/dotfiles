@@ -3,6 +3,8 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export DOCKER_HOST=tcp://localhost:2375
+
 
 ZSH_THEME="eastwood"
 
@@ -56,3 +58,13 @@ bindkey "${terminfo[kcuu1]}" up-line-or-beginning-search
 
 # start typing + [Down-Arrow] - fuzzy find history backward
 bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
+export OPENAI_KEY=
+export PATH=$PATH:/usr/local/bin:/mnt/c/Users/namhyuck.kim/AppData/Local/Programs/Microsoft\ VS\ Code/bin
+
+# pnpm
+export PNPM_HOME="/home/namhyuck/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

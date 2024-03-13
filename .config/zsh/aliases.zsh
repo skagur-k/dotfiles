@@ -18,7 +18,11 @@ alias gc="gcloud"
 alias zj="zellij"
 alias zjd="zellij delete-all-sessions"
 
+alias gpt="chatgpt"
+
 mkcdir() {
   mkdir -p -- "$1" &&
   cd -P -- "$1"
 }
+
+alias open="/mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe"
